@@ -1,13 +1,14 @@
 name: dart_basic
-description: A sample command-line application.
+description: Basic dart program for learn
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+# repository: https://github.com/abumaryam/DartBasic
 
 environment:
   sdk: ^3.2.3
 
 # Add regular dependencies here.
 dependencies:
+  chalkdart: ^2.2.1
   # path: ^1.8.0
 
 dev_dependencies:
