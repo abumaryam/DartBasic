@@ -20,14 +20,14 @@ void process(String choice) {
   switch (choice) {
     case '1':
       print('Anda memilih penambahan');
-      print('Masukkan nilai variabel a:');
+      print('Masukkan nilai variabel a: (range 1-9)');
       try {
         a = double.parse(stdin.readLineSync()!);
       } catch (e) {
         print(chalk.black.onRed('Input bukan bertipe data double'));
         break;
       }
-      print('Masukkan nilai variabel b:');
+      print('Masukkan nilai variabel b: (range 1-9)');
       try {
         b = double.parse(stdin.readLineSync()!);
       } catch (e) {
@@ -39,14 +39,14 @@ void process(String choice) {
       break;
     case '2':
       print('Anda memilih perkalian');
-      print('Masukkan nilai variabel a:');
+      print('Masukkan nilai variabel a: (range 1-9)');
       try {
         a = double.parse(stdin.readLineSync()!);
       } catch (e) {
         print(chalk.black.onRed('Input bukan bertipe data double'));
         break;
       }
-      print('Masukkan nilai variabel b:');
+      print('Masukkan nilai variabel b: (range 1-9)');
       try {
         b = double.parse(stdin.readLineSync()!);
       } catch (e) {
@@ -59,7 +59,7 @@ void process(String choice) {
       break;
     case '3':
       print('Anda memilih perhitungan luas segitiga sama sisi');
-      print('Masukkan nilai sisi segitiga:');
+      print('Masukkan nilai sisi segitiga: (range 1-9)');
       try {
         a = double.parse(stdin.readLineSync()!);
       } catch (e) {
@@ -70,14 +70,14 @@ void process(String choice) {
       print(chalk.white.onYellow('Luas segitiga sama sisi dengan sisi $a adalah $hasil'));
       break;
     case '4':
-      print('Masukkan nilai alas segitiga:');
+      print('Masukkan nilai alas segitiga: (range 1-9)');
       try {
         a = double.parse(stdin.readLineSync()!);
       } catch (e) {
         print(chalk.black.onRed('Input bukan bertipe data double'));
         break;
       }
-      print('Masukkan nilai tinggi segitiga:');
+      print('Masukkan nilai tinggi segitiga: (range 1-9)');
       try {
         b = double.parse(stdin.readLineSync()!);
       } catch (e) {
